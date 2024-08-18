@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring other signup inputs</title>
+</head>
+<body>
+    <h1>Dental Consultation form</h1>
+   <form action="/login" method="post">
+    <input type="text" name="username" placeholder="Username"> <br> <br>
+    <input type="tel" placeholder="Mobile number"> <br> <br>
+    <input type="email" placeholder="Email-address"> <br> <br>
+    <input type="url" placeholder="url"> <br> <br>
+    <input type="number" placeholder="Hospital card number"> <br> <br>
+    <label>Date of Birth</label> <br>
+    <input type="date"><br> <br>
+    <label>Select your gender</label> <br>
+    <input type="radio" name="Gender" value="Male"> <label>Male</label> <br>
+    <input type="radio" name="Gender" value="Female"> <label>Female</label> <br> <br>
+    <label>Choose your preferred time</label> <br>
+    <input type="time"> <br> <br>
+    <label>Tell us about your present dental issue</label> <br>
+    <textarea placeholder="Comment here"></textarea> <br> <br>
+    <label for="payment">Choose your preferred payment type</label> <br>
+    <input type="checkbox" name="payment">
+     <label for="payment">Payment with Transfer after services</label> <br>
+    <input type="checkbox" name="payment">
+     <label for="payment">Payment with Cash before services</label> <br>
+    <input type="checkbox" name="payment">
+     <label for="payment">Payment with Transfer before services</label> <br> <br>
+     <label>When last did you visit the dental clinic?</label> <br>
+     <select name="Date of last dental visit">
+        <option>Less than one month</option>
+        <option>More than a year</option>
+        <option>Last five years or more</option>
+     </select> <br> <br>
+     <label>Are you allergic to any treatment?</label> <br>
+     <select name="any allergy" multiple>
+        <option>Yes</option>
+        <option>No</option>
+        <option>Depends on the weather</option>
+     </select> <br> <br>
+     <label>Add file of your past medical and dental history</label> <br>
+     <input type="file" name="file"> <br> <br>
+     <label>Rate our clinical services</label> <br>
+     <input type="range"> <br> <br>
+     <input type="submit" value="submit">
+     <input type="hidden" name="tracking-code" value="abc-123"> 
+   </form> 
+</body>
+</html>
