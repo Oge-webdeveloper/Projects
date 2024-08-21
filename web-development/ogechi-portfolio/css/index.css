@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:pink;
+    font-size: 16px;
+    padding: 0px 64px 0px 64px;
+}
+
+/**Nav Style**/
+nav{
+    background-color: aqua;
+    background-image: linear-gradient(
+        to right
+    );
+}
+
+/**Header Style**/ 
+header{
+    background-image: linear-gradient(
+        to right,
+        rgb(248, 191, 84), 
+        rgb(250, 137, 225), 
+        rgb(93, 120, 196)
+    );
+}
+header h1{
+    margin: 32px 0px 0px 0px ;
+    color:hsl(300, 88%, 30%)
+}
+
+header .header-paragraph-one{
+    color:rgba(0, 0, 255, 0.6);
+    font-size: 2rem;
+}
+
+header .header-paragraph-two{
+    color: #f30a29 ;
+    font-size: 3em;
+}
+
+header a{
+    border: 0.2rem solid greenyellow;
+    padding: 8px 16px 8px 16px;
+}
