@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    font-size: 16px;
+    margin: 5rem 32rem 0rem 31rem;
+}
+
+.info{
+    padding:1.2rem;
+}
+
+img{
+    border-radius: 50%;
+    width: 30%;  
+}
+
+h1{
+    color:white;
+    padding-top: 1rem;
+}
+
+h3{
+    padding-top: 0.5rem;
+    color:yellow;
+}
+
+p{
+    color:white;
+    padding-top: 2rem;
+}
+
+.overall{
+    background-color: rgb(31, 29, 29);
+    text-align: center;
+    padding-top: 1rem;
+    border-radius: 5%;
+}
+
+button{
+    width:15rem;
+    height: 2.5rem;
+    background-color: rgb(54, 52, 52);
+    border-radius: 8px;
+    border: 1px solid rgb(54, 52, 52);
+}
+
+.link{
+    color:whitesmoke;
+    text-decoration:none;
+}
+
+
